@@ -1,0 +1,21 @@
+.opacity-70--hover {
+  @media (min-width: 1200px) {
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+.font-weight-bold{
+  font-weight: bold;
+}
+.text-success--hover {
+  @media (min-width: 1200px) {
+    &:hover,
+    &:focus {
+      color: $success !important;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

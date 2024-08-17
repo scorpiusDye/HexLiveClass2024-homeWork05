@@ -1,0 +1,71 @@
+.nav-items {
+  padding-left: 32px;
+  &:hover {
+    background-color: $gray-200;
+  }
+}
+.hide-text {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: transparent;
+}
+nav {
+  width: 296px;
+  background-color: $gray-100;
+  .logo {
+    display: block;
+    a {
+      background: url(../../assets/images/logo-ANSWER.svg) center center
+        no-repeat;
+      background-size: contain;
+      width: 145px;
+      height: 40px;
+    }
+  }
+  .active {
+    color: $success !important;
+    &:before {
+      content: "";
+      display: block;
+      width: 4px;
+      height: 40px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $success;
+    }
+  }
+}
+.member-info-img{
+  width: 40px;
+  height: 40px;
+}
+.member-info-blk{
+  .mail{
+    font-size: 14px;
+    color: $gray-600;
+  }
+}
+.admin-info-img{
+  width: 140px;
+  height: 140px;
+}
+.card-arrow{
+  width: 24px;
+  height: 24px;
+  background-color: $white;
+  border: 0px;
+}
+.collapsed .open {
+  display: none;
+}
+.open {
+  display: block;
+}
+.collapsed .close {
+  display: block;
+}
+.close {
+  display: none;
+}
